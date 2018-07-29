@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/cvCircleColor"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        app:flexWrap="wrap">
+
+        <RelativeLayout
+            android:id="@+id/rel_lay_one_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:paddingBottom="@dimen/spacing"
+            android:paddingTop="@dimen/spacing">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/textview_one_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="@dimen/left_right"
+                android:layout_marginLeft="@dimen/spacing"
+                android:layout_marginRight="@dimen/left_right"
+                android:layout_marginStart="@dimen/spacing"
+                android:padding="@dimen/spacing"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</com.google.android.flexbox.FlexboxLayout>

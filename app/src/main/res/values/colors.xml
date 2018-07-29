@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightGray">#d1d1d2</color>
+    <color name="editTextBack">#F2F0F4</color>
+
+    <color name="snack_bar_color_success">#4BB543</color>
+    <color name="progressColor">#9758c7</color>
+    <color name="whiteTransparent">#d7ffffff</color>
+    <color name="blackLight">#1f000000</color>
+
+    <color name="locationCircleColor">#9e93b6ea</color>
+    <color name="locationCircleRadiusColor">#3F86F1</color>
+    <color name="lightBlack">#39252626</color>
+    <color name="circleMapPath">#ff33b5e5</color>
+    <color name="frostedWhite">#fdf8f3</color>
+    <color name="optionColor">#3455c0</color>
+    <color name="captionTextColor">#616161</color>
+    <color name="backgroundColor">#EEEEEE</color>
+    <!--<color name="colorControlNormal">#ff0303</color>-->
+    <color name="colorControlActivated">@color/optionColor</color>
+    <color name="rvSelectColor">#e1c2f9</color>
+    <color name="cvCircleColor">#6000fa</color>
+</resources>
